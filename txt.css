@@ -1,0 +1,53 @@
+.image_center {
+    display: block;
+    margin-left: 15px;
+  }
+
+.table_title{
+  text-align: center;font-size: 45px;
+  border: 2px solid rgb(104, 183, 157);
+  background-color: rgb(243, 254, 254);
+}
+.table_content{
+  line-height: 2;
+  margin-left: 58%;
+  font-size: 25px;
+  margin-top: 115px;
+}
+.member_images{
+  float: left;
+  margin-left: 15%; 
+  margin-top: 20px; 
+  width:30%;
+}
+.album_images{
+  float: left;
+  margin-left: 5%; 
+  margin-top: 90px; 
+  width:30%;
+  margin-bottom: 90px; 
+}
+.album_content{
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  font-weight: 800;
+  line-height: 1.02;                    
+  letter-spacing: 1.2px;               
+  text-shadow:
+    0 2px 4px rgba(0,0,0,.18),
+    0 8px 22px rgba(0,0,0,.22);
+    text-shadow:2px 2px 5px gray;color: white;
+}
+.hover_table:hover {
+  transform: scale(1.02); 
+  box-shadow: 0 10px 20px rgba(251, 251, 251, 0.2); 
+  
+}
+.link{
+  text-decoration: none;color:inherit;
+}
+.performance_content{
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  font-weight: 800;
+  line-height: 1.02;                    
+  letter-spacing: 1.2px;               
+   color:rgb(104, 183, 157);}
