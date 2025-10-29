@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TXT</title>
+        <link rel="stylesheet" href="css/txt.css">
+    </head>
+    <body>
+        <div style="height: 100vh; display:flex; flex-direction:column;">
+                <div style="height: 150px; width: 100vw; background-color: rgb(198, 254, 239); color:  rgb(81, 147, 125); align-items:top; ">
+                   
+                    <table width="100%">
+                        <tr>
+                            <td width="57%"><img class="image_center" height="150px" src="images/TXT-Logo-5-2019.png"></td>
+                            <td width="13%" style="font-size: 22px;text-align: left;"><a href="txt_intro.html" class="hover-text" target="_self"style="text-decoration: none;color:inherit">Introduction</a></td>
+                            <td width="13%" style="font-size: 22px;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;<a href="txt_music.html" class="hover-text" style="text-decoration: none;color:inherit">Music</a></td>
+                            <td width="17%" style="font-size: 22px;text-align: left;"><a href="txt_performances.html" class="hover-text" style="text-decoration: none;color:inherit">Performances</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+        <div style="flex: 1; display: flex; width:100vw;color: rgb(81, 147, 125);">
+        <div style="flex: 1; background-color: rgb(227, 252, 239);">
+            <div style="position: relative;"><img width="100%" src="images/anniversary.jpg" style="display:block">
+                <div style="position: absolute;bottom: 0;width: 90.5vw;background: rgba(209, 241, 246, 0.394);color: white;text-align: center;padding: 70px;font-size: 65px;font-family: Tahoma, Geneva, sans-serif;letter-spacing: 2px;">
+                <b>TOMORROW X TOGETHER</b>
+                </div>
+            </div>
+                    <table style="margin-left:auto; margin-right:auto;padding-top: 30px;" width="80%";border="0">
+                        <tr><td class="table_title">Basic Info<br></td></tr>
+                        <tr><td style="padding-bottom: 35px;"><br><a href="https://en.wikipedia.org/wiki/Tomorrow_X_Together" target="_blank">
+                            <img src="images/cam.jpg" class="member_images hover-img" style="float: left;margin-left: 5%; margin-top: 20px; width:43%;"></a>
+                            <ul style="line-height: 2;margin-left: 52%;font-size: 25px;margin-top: 60px;">
+                            <li>Tomorrow X Together (투모로우바이투게더)</li>
+                            <li>Abbreviation: TXT/투바투(Tubatu)</li>
+                            <li>Company: Big Hit Entertainment (company of BTS)</li>
+                            <li>Debute: 2019.3.4</li>
+                            <li>Fan name: MOA</li>
+                            </ul>
+                        </td></tr>
+                        <tr><td class="table_title">Members<br></td></tr>
+                    
+                        <tr><td><br><a href="https://en.wikipedia.org/wiki/Yeonjun" target="_blank"><img src="images/crj.webp" class="member_images hover-img"></a>
+                            <ul class="table_content">
+                            <li>Name: Yeonjun(연준/崔然竣)</li>
+                            <li>Birthday: 1999.9.13</li>
+                            <li>Nationality: Korea🇰🇷</li>
+                            <li>Position: Dancer/ACE</li>
+                            <li>Animal: Fox🦊</li>
+                            </ul>
+                        </td></tr>
+                        <tr><td><br><a href="https://en.wikipedia.org/wiki/Soobin_(singer)" target="_blank"><img src="images/soobin.jpg" class="member_images hover-img"></a>
+                            <ul class="table_content">
+                            <li>Name: Soobin(수빈/崔秀彬)</li>
+                            <li>Birthday: 2000.12.5</li>
+                            <li>Nationality: Korea🇰🇷</li>
+                            <li>Position: Leader</li>
+                            <li>Animal: Rabbit🐰</li>
+                            </ul>
+                        </td></tr>
+                        <tr><td><br><a href="https://en.wikipedia.org/wiki/Beomgyu" target="_blank"><img src="images/beomgyu.jpg" class="member_images hover-img"></a>
+                            <ul class="table_content">
+                            <li>Name: Beomgyu(범규/崔杋圭)</li>
+                            <li>Birthday: 2001.3.13</li>
+                            <li>Nationality: Korea🇰🇷</li>
+                            <li>Position: Visual</li>
+                            <li>Animal: Dog🐶</li>
+                            </ul>
+                        </td></tr>
+                        <tr><td><br><a href="https://en.wikipedia.org/wiki/Taehyun_(singer)" target="_blank"><img src="images/kth.jpg" class="member_images hover-img"></a>
+                            <ul class="table_content">
+                            <li>Name: Taehyun(태현/姜太显)</li>
+                            <li>Birthday: 2002.2.5</li>
+                            <li>Nationality: Korea🇰🇷</li>
+                            <li>Position: Vocalist</li>
+                            <li>Animal: Cat🐱/Squirrel🐿️</li>
+                            </ul>
+                        </td></tr>
+                        <tr><td><br><a href="https://ko.wikipedia.org/wiki/%ED%9C%B4%EB%8B%9D%EC%B9%B4%EC%9D%B4" target="_blank"><img src="images/kai.jpg" class="member_images hover-img"></a>
+                            <ul class="table_content">
+                            <li>Name: Hueningkai(휴닝카이/休宁凯)</li>
+                            <li>Birthday: 2002.8.14</li>
+                            <li>Nationality: US🇺🇸</li>
+                            <li>Position: Maknae</li>
+                            <li>Animal: Penguin🐧</li>
+                            </ul>
+                        </td></tr>
+                    </table>
+                </div>
+                </div>
+        </div>
+        <script>
+            const imgs = document.querySelectorAll('.hover-img');  
+    
+            imgs.forEach(img => {
+            img.addEventListener('mouseover', function () 
+            {
+                this.style.transform = "scale(1.05)";
+                this.style.filter = "brightness(1.1)";
+            });
+    
+            img.addEventListener('mouseout', function () 
+            {
+                this.style.transform = "scale(1)";
+                this.style.filter = "brightness(1)"})})
+    
+            const texts = document.querySelectorAll('.hover-text');  
+                texts.forEach(text => {
+            text.addEventListener('mouseover', function () 
+            {   
+            this.style.color = "rgb(255, 255, 255)";  
+            this.style.transform = "scale(1.1)";
+            });
+    
+            text.addEventListener('mouseout', function () 
+            {
+                this.style.color = "inherit";
+          this.style.transform = "scale(1)"; }); });
+        </script>
+    </body>
+</html>
